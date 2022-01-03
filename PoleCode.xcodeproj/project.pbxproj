@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE731692277DF7EA008A5886 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE731691277DF7EA008A5886 /* ProblemView.swift */; };
+		DE731693277DF7EA008A5886 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE731691277DF7EA008A5886 /* ProblemView.swift */; };
+		DED19C01277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
+		DED19C02277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
+		DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C03277F71050042ED48 /* StarsAlignInput.swift */; };
+		DED19C05277F71050042ED48 /* StarsAlignInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C03277F71050042ED48 /* StarsAlignInput.swift */; };
 		DED84663277DE70500B34C6C /* PoleCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84653277DE70400B34C6C /* PoleCodeApp.swift */; };
 		DED84664277DE70500B34C6C /* PoleCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84653277DE70400B34C6C /* PoleCodeApp.swift */; };
-		DED84665277DE70500B34C6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84654277DE70400B34C6C /* ContentView.swift */; };
-		DED84666277DE70500B34C6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84654277DE70400B34C6C /* ContentView.swift */; };
+		DED84665277DE70500B34C6C /* HappyNewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84654277DE70400B34C6C /* HappyNewYearView.swift */; };
+		DED84666277DE70500B34C6C /* HappyNewYearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED84654277DE70400B34C6C /* HappyNewYearView.swift */; };
 		DED84667277DE70500B34C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED84655277DE70500B34C6C /* Assets.xcassets */; };
 		DED84668277DE70500B34C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED84655277DE70500B34C6C /* Assets.xcassets */; };
+		DEDFC3232780740D0009F38F /* StarsAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFC3222780740D0009F38F /* StarsAlign.swift */; };
+		DEDFC3242780740D0009F38F /* StarsAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFC3222780740D0009F38F /* StarsAlign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE731691277DF7EA008A5886 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		DED19C00277E252E0042ED48 /* StarsAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignView.swift; sourceTree = "<group>"; };
+		DED19C03277F71050042ED48 /* StarsAlignInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignInput.swift; sourceTree = "<group>"; };
 		DED84653277DE70400B34C6C /* PoleCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoleCodeApp.swift; sourceTree = "<group>"; };
-		DED84654277DE70400B34C6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DED84654277DE70400B34C6C /* HappyNewYearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearView.swift; sourceTree = "<group>"; };
 		DED84655277DE70500B34C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DED8465A277DE70500B34C6C /* PoleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED84660277DE70500B34C6C /* PoleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED84662277DE70500B34C6C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DEDFC3222780740D0009F38F /* StarsAlign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE1BFCF327826EA900558E51 /* StarsAlign */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFC3222780740D0009F38F /* StarsAlign.swift */,
+				DED19C00277E252E0042ED48 /* StarsAlignView.swift */,
+				DED19C03277F71050042ED48 /* StarsAlignInput.swift */,
+			);
+			path = StarsAlign;
+			sourceTree = "<group>";
+		};
 		DED8464D277DE70400B34C6C = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				DED84653277DE70400B34C6C /* PoleCodeApp.swift */,
-				DED84654277DE70400B34C6C /* ContentView.swift */,
+				DED84654277DE70400B34C6C /* HappyNewYearView.swift */,
+				DE731691277DF7EA008A5886 /* ProblemView.swift */,
+				DE1BFCF327826EA900558E51 /* StarsAlign */,
 				DED84655277DE70500B34C6C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,8 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED84665277DE70500B34C6C /* ContentView.swift in Sources */,
+				DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */,
+				DE731692277DF7EA008A5886 /* ProblemView.swift in Sources */,
+				DEDFC3232780740D0009F38F /* StarsAlign.swift in Sources */,
+				DED84665277DE70500B34C6C /* HappyNewYearView.swift in Sources */,
 				DED84663277DE70500B34C6C /* PoleCodeApp.swift in Sources */,
+				DED19C01277E252E0042ED48 /* StarsAlignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED84666277DE70500B34C6C /* ContentView.swift in Sources */,
+				DED19C05277F71050042ED48 /* StarsAlignInput.swift in Sources */,
+				DE731693277DF7EA008A5886 /* ProblemView.swift in Sources */,
+				DEDFC3242780740D0009F38F /* StarsAlign.swift in Sources */,
+				DED84666277DE70500B34C6C /* HappyNewYearView.swift in Sources */,
 				DED84664277DE70500B34C6C /* PoleCodeApp.swift in Sources */,
+				DED19C02277E252E0042ED48 /* StarsAlignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
