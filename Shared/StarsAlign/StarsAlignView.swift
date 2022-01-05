@@ -1,35 +1,38 @@
 
 import SwiftUI
 
+
+struct StarsAlignView2_Previews: PreviewProvider {
+    static let align = StarsAlign(with: StarsAlign.input)
+    static var previews: some View {
+        StarsAlignView(title: "Stars Align")//, align: align, text: align.printt())
+    }
+}
+
 struct StarsAlignView: View {
     var title: String
-    @State private var tick = 0
-    @State private var tickText = "Tick: 0"
     @State private var iterate = "1"
-    @State var align: StarsAlign
-    @State var text: String
+    @StateObject var alignVM = StarsAlignVM()
     @FocusState private var focused: Bool
     
     var body: some View {
         VStack {
             VStack {
-                TextEditor(text: $text)
-                    .cornerRadius(5.0)
+                TextEditor(text: $alignVM.text)
+                    .cornerRadius(10)
                     .padding(15)
                     .shadow(radius: 5)
-                    .lineSpacing(-22.0)
+                    .lineSpacing(-22)
                     .font(.caption2)
                     .disabled(true)
+            }.onAppear {
+                alignVM.load()
             }
 
             HStack {
                 Button {
                     if focused { return }
-                    guard let t = Int(iterate) else { return }
-                    tick -= t
-                    tickText = "Tick: \(tick)"
-                    align.fastForward(-1*t)
-                    text = align.printt()
+                    alignVM.backwards(iterate)
                 } label: {
                     Image(systemName: "arrow.left.circle.fill").font(.system(size: 40))
                 }
@@ -59,11 +62,7 @@ struct StarsAlignView: View {
 
                 Button {
                     if focused { return }
-                    guard let t = Int(iterate) else { return }
-                    tick += t
-                    tickText = "Tick: \(tick)"
-                    align.fastForward(t)
-                    text = align.printt()
+                    alignVM.forward(iterate)
                 } label: {
                     Image(systemName: "arrow.right.circle.fill").font(.system(size: 40))
                         
@@ -72,16 +71,10 @@ struct StarsAlignView: View {
             }
             
             HStack {
-                Text(tickText)
+                Text(alignVM.tickText)
             }.background()
             
         }.navigationTitle(title)
     }
 }
 
-struct StarsAlignView2_Previews: PreviewProvider {
-    static let align = StarsAlign(with: StarsAlign.input)
-    static var previews: some View {
-        StarsAlignView(title: "Stars Align", align: align, text: align.printt())
-    }
-}

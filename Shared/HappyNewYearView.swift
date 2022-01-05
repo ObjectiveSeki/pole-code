@@ -29,10 +29,9 @@ struct HappyNewYearView: View {
                 }.padding()
                 
                 List {
-                    let align = StarsAlign(with: StarsAlign.input)
                     NavigationLink(
                         "2018 Day 10 - The Stars Align",
-                        destination: StarsAlignView(title: "The Stars Align", align: align, text: align.printt())
+                        destination: StarsAlignView(title: "The Stars Align")
                     )
                     NavigationLink(
                         "2021 Day 6 - Lanternfish",

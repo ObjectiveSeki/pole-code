@@ -1,5 +1,5 @@
 
-import Foundation
+import SwiftUI
 
 
 struct StarsAlign {
@@ -13,7 +13,6 @@ struct StarsAlign {
     
     init(with input: String) {
         points = points(from: input)
-        fastForward()
     }
     
     func points(from input: String) -> [[[Int]]] {
@@ -29,7 +28,7 @@ struct StarsAlign {
             }
     }
     
-    mutating func fastForward(_ times: Int) {
+    mutating func forward(_ times: Int) {
         for i in 0..<points.count {
             let vx = points[i][1][0]
             let vy = points[i][1][1]
@@ -39,10 +38,10 @@ struct StarsAlign {
     }
     
     mutating func fastForward() {
-        fastForward(10870)
+        forward(10870)
     }
     
-    func printt() -> String {
+    func printStars() -> String {
         var matrix = Array(repeating: Array(repeating: " ", count: gridSize), count: gridSize)
         for i in points {
             let x = i[0][1]
