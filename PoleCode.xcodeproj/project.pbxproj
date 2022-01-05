@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE731692277DF7EA008A5886 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE731691277DF7EA008A5886 /* ProblemView.swift */; };
-		DE731693277DF7EA008A5886 /* ProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE731691277DF7EA008A5886 /* ProblemView.swift */; };
+		DE05A0132782EF9800733D9B /* LanternfishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A0122782EF9800733D9B /* LanternfishTests.swift */; };
+		DE05A01B2783537B00733D9B /* Lanternfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01A2783537B00733D9B /* Lanternfish.swift */; };
+		DE05A01C2783537B00733D9B /* Lanternfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01A2783537B00733D9B /* Lanternfish.swift */; };
+		DE05A01D2783537B00733D9B /* Lanternfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01A2783537B00733D9B /* Lanternfish.swift */; };
+		DE05A01F278353DD00733D9B /* LanternfishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01E278353DD00733D9B /* LanternfishInput.swift */; };
+		DE05A020278353DD00733D9B /* LanternfishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01E278353DD00733D9B /* LanternfishInput.swift */; };
+		DE05A021278353DD00733D9B /* LanternfishInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05A01E278353DD00733D9B /* LanternfishInput.swift */; };
+		DE82675F2783605000E19309 /* LanternfishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82675E2783605000E19309 /* LanternfishView.swift */; };
+		DE8267602783605000E19309 /* LanternfishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82675E2783605000E19309 /* LanternfishView.swift */; };
+		DE8267612783605000E19309 /* LanternfishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82675E2783605000E19309 /* LanternfishView.swift */; };
+		DE826763278363B000E19309 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826762278363B000E19309 /* PieSliceView.swift */; };
+		DE826764278363B000E19309 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826762278363B000E19309 /* PieSliceView.swift */; };
+		DE826765278363B000E19309 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826762278363B000E19309 /* PieSliceView.swift */; };
+		DE826767278375F800E19309 /* LanternfishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826766278375F800E19309 /* LanternfishViewModel.swift */; };
+		DE826768278375F800E19309 /* LanternfishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826766278375F800E19309 /* LanternfishViewModel.swift */; };
+		DE826769278375F800E19309 /* LanternfishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826766278375F800E19309 /* LanternfishViewModel.swift */; };
 		DED19C01277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
 		DED19C02277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
 		DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C03277F71050042ED48 /* StarsAlignInput.swift */; };
@@ -21,10 +35,29 @@
 		DED84668277DE70500B34C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED84655277DE70500B34C6C /* Assets.xcassets */; };
 		DEDFC3232780740D0009F38F /* StarsAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFC3222780740D0009F38F /* StarsAlign.swift */; };
 		DEDFC3242780740D0009F38F /* StarsAlign.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFC3222780740D0009F38F /* StarsAlign.swift */; };
+		DEE195252786369F00D8634D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE195242786369F00D8634D /* Extentions.swift */; };
+		DEE195262786369F00D8634D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE195242786369F00D8634D /* Extentions.swift */; };
+		DEE1952727863ACE00D8634D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE195242786369F00D8634D /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE05A0142782EF9800733D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED8464E277DE70400B34C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED84659277DE70500B34C6C;
+			remoteInfo = "PoleCode (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		DE731691277DF7EA008A5886 /* ProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemView.swift; sourceTree = "<group>"; };
+		DE05A0102782EF9800733D9B /* PoleCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoleCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE05A0122782EF9800733D9B /* LanternfishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternfishTests.swift; sourceTree = "<group>"; };
+		DE05A01A2783537B00733D9B /* Lanternfish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lanternfish.swift; sourceTree = "<group>"; };
+		DE05A01E278353DD00733D9B /* LanternfishInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternfishInput.swift; sourceTree = "<group>"; };
+		DE82675E2783605000E19309 /* LanternfishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternfishView.swift; sourceTree = "<group>"; };
+		DE826762278363B000E19309 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		DE826766278375F800E19309 /* LanternfishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternfishViewModel.swift; sourceTree = "<group>"; };
 		DED19C00277E252E0042ED48 /* StarsAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignView.swift; sourceTree = "<group>"; };
 		DED19C03277F71050042ED48 /* StarsAlignInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignInput.swift; sourceTree = "<group>"; };
 		DED84653277DE70400B34C6C /* PoleCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoleCodeApp.swift; sourceTree = "<group>"; };
@@ -34,9 +67,17 @@
 		DED84660277DE70500B34C6C /* PoleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED84662277DE70500B34C6C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		DEDFC3222780740D0009F38F /* StarsAlign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlign.swift; sourceTree = "<group>"; };
+		DEE195242786369F00D8634D /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE05A00D2782EF9800733D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED84657277DE70500B34C6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +95,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE05A0112782EF9800733D9B /* PoleCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE05A0122782EF9800733D9B /* LanternfishTests.swift */,
+			);
+			path = PoleCodeTests;
+			sourceTree = "<group>";
+		};
+		DE05A0192783532000733D9B /* Lanternfish */ = {
+			isa = PBXGroup;
+			children = (
+				DE82675E2783605000E19309 /* LanternfishView.swift */,
+				DE826762278363B000E19309 /* PieSliceView.swift */,
+				DE05A01A2783537B00733D9B /* Lanternfish.swift */,
+				DE826766278375F800E19309 /* LanternfishViewModel.swift */,
+				DE05A01E278353DD00733D9B /* LanternfishInput.swift */,
+			);
+			path = Lanternfish;
+			sourceTree = "<group>";
+		};
 		DE1BFCF327826EA900558E51 /* StarsAlign */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +130,7 @@
 			children = (
 				DED84652277DE70400B34C6C /* Shared */,
 				DED84661277DE70500B34C6C /* macOS */,
+				DE05A0112782EF9800733D9B /* PoleCodeTests */,
 				DED8465B277DE70500B34C6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +140,8 @@
 			children = (
 				DED84653277DE70400B34C6C /* PoleCodeApp.swift */,
 				DED84654277DE70400B34C6C /* HappyNewYearView.swift */,
-				DE731691277DF7EA008A5886 /* ProblemView.swift */,
+				DEE195242786369F00D8634D /* Extentions.swift */,
+				DE05A0192783532000733D9B /* Lanternfish */,
 				DE1BFCF327826EA900558E51 /* StarsAlign */,
 				DED84655277DE70500B34C6C /* Assets.xcassets */,
 			);
@@ -90,6 +153,7 @@
 			children = (
 				DED8465A277DE70500B34C6C /* PoleCode.app */,
 				DED84660277DE70500B34C6C /* PoleCode.app */,
+				DE05A0102782EF9800733D9B /* PoleCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +169,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE05A00F2782EF9800733D9B /* PoleCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE05A0182782EF9800733D9B /* Build configuration list for PBXNativeTarget "PoleCodeTests" */;
+			buildPhases = (
+				DE05A00C2782EF9800733D9B /* Sources */,
+				DE05A00D2782EF9800733D9B /* Frameworks */,
+				DE05A00E2782EF9800733D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE05A0152782EF9800733D9B /* PBXTargetDependency */,
+			);
+			name = PoleCodeTests;
+			productName = PoleCodeTests;
+			productReference = DE05A0102782EF9800733D9B /* PoleCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DED84659277DE70500B34C6C /* PoleCode (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DED8466B277DE70500B34C6C /* Build configuration list for PBXNativeTarget "PoleCode (iOS)" */;
@@ -149,6 +231,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					DE05A00F2782EF9800733D9B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DED84659277DE70500B34C6C;
+					};
 					DED84659277DE70500B34C6C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -172,11 +258,19 @@
 			targets = (
 				DED84659277DE70500B34C6C /* PoleCode (iOS) */,
 				DED8465F277DE70500B34C6C /* PoleCode (macOS) */,
+				DE05A00F2782EF9800733D9B /* PoleCodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE05A00E2782EF9800733D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED84658277DE70500B34C6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,16 +290,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DE05A00C2782EF9800733D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE826765278363B000E19309 /* PieSliceView.swift in Sources */,
+				DE05A021278353DD00733D9B /* LanternfishInput.swift in Sources */,
+				DE8267612783605000E19309 /* LanternfishView.swift in Sources */,
+				DE05A01D2783537B00733D9B /* Lanternfish.swift in Sources */,
+				DE05A0132782EF9800733D9B /* LanternfishTests.swift in Sources */,
+				DE826769278375F800E19309 /* LanternfishViewModel.swift in Sources */,
+				DEE1952727863ACE00D8634D /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DED84656277DE70500B34C6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */,
-				DE731692277DF7EA008A5886 /* ProblemView.swift in Sources */,
 				DEDFC3232780740D0009F38F /* StarsAlign.swift in Sources */,
+				DE05A01B2783537B00733D9B /* Lanternfish.swift in Sources */,
+				DEE195252786369F00D8634D /* Extentions.swift in Sources */,
+				DE826767278375F800E19309 /* LanternfishViewModel.swift in Sources */,
 				DED84665277DE70500B34C6C /* HappyNewYearView.swift in Sources */,
 				DED84663277DE70500B34C6C /* PoleCodeApp.swift in Sources */,
+				DE826763278363B000E19309 /* PieSliceView.swift in Sources */,
 				DED19C01277E252E0042ED48 /* StarsAlignView.swift in Sources */,
+				DE05A01F278353DD00733D9B /* LanternfishInput.swift in Sources */,
+				DE82675F2783605000E19309 /* LanternfishView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,17 +327,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				DED19C05277F71050042ED48 /* StarsAlignInput.swift in Sources */,
-				DE731693277DF7EA008A5886 /* ProblemView.swift in Sources */,
 				DEDFC3242780740D0009F38F /* StarsAlign.swift in Sources */,
+				DE05A01C2783537B00733D9B /* Lanternfish.swift in Sources */,
+				DEE195262786369F00D8634D /* Extentions.swift in Sources */,
+				DE826768278375F800E19309 /* LanternfishViewModel.swift in Sources */,
 				DED84666277DE70500B34C6C /* HappyNewYearView.swift in Sources */,
 				DED84664277DE70500B34C6C /* PoleCodeApp.swift in Sources */,
+				DE826764278363B000E19309 /* PieSliceView.swift in Sources */,
 				DED19C02277E252E0042ED48 /* StarsAlignView.swift in Sources */,
+				DE05A020278353DD00733D9B /* LanternfishInput.swift in Sources */,
+				DE8267602783605000E19309 /* LanternfishView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE05A0152782EF9800733D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED84659277DE70500B34C6C /* PoleCode (iOS) */;
+			targetProxy = DE05A0142782EF9800733D9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		DE05A0162782EF9800733D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WR88837J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkfit.PoleCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoleCode.app/PoleCode";
+			};
+			name = Debug;
+		};
+		DE05A0172782EF9800733D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WR88837J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkfit.PoleCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoleCode.app/PoleCode";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		DED84669277DE70500B34C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +623,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE05A0182782EF9800733D9B /* Build configuration list for PBXNativeTarget "PoleCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE05A0162782EF9800733D9B /* Debug */,
+				DE05A0172782EF9800733D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DED84651277DE70400B34C6C /* Build configuration list for PBXProject "PoleCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

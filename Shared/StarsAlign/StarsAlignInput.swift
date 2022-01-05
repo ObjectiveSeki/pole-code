@@ -1,7 +1,7 @@
 
 import Foundation
 
-class StarsAlignInput {
+struct StarsAlignInput {
     static let inputTest = """
 position=< 9,  1> velocity=< 0,  2>
 position=< 7,  0> velocity=<-1,  0>
