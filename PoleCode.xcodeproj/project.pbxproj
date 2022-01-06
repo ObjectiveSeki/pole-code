@@ -25,6 +25,8 @@
 		DE826769278375F800E19309 /* LanternfishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE826766278375F800E19309 /* LanternfishViewModel.swift */; };
 		DEB9737E27865ED000B85B3E /* StarsAlignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9737D27865ED000B85B3E /* StarsAlignViewModel.swift */; };
 		DEB9737F27865ED000B85B3E /* StarsAlignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9737D27865ED000B85B3E /* StarsAlignViewModel.swift */; };
+		DEB973812786655000B85B3E /* RepoWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB973802786655000B85B3E /* RepoWebView.swift */; };
+		DEB973822786655000B85B3E /* RepoWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB973802786655000B85B3E /* RepoWebView.swift */; };
 		DED19C01277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
 		DED19C02277E252E0042ED48 /* StarsAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C00277E252E0042ED48 /* StarsAlignView.swift */; };
 		DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19C03277F71050042ED48 /* StarsAlignInput.swift */; };
@@ -61,6 +63,7 @@
 		DE826762278363B000E19309 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
 		DE826766278375F800E19309 /* LanternfishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanternfishViewModel.swift; sourceTree = "<group>"; };
 		DEB9737D27865ED000B85B3E /* StarsAlignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignViewModel.swift; sourceTree = "<group>"; };
+		DEB973802786655000B85B3E /* RepoWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoWebView.swift; sourceTree = "<group>"; };
 		DED19C00277E252E0042ED48 /* StarsAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignView.swift; sourceTree = "<group>"; };
 		DED19C03277F71050042ED48 /* StarsAlignInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAlignInput.swift; sourceTree = "<group>"; };
 		DED84653277DE70400B34C6C /* PoleCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoleCodeApp.swift; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 			children = (
 				DED84653277DE70400B34C6C /* PoleCodeApp.swift */,
 				DED84654277DE70400B34C6C /* HappyNewYearView.swift */,
+				DEB973802786655000B85B3E /* RepoWebView.swift */,
 				DEE195242786369F00D8634D /* Extentions.swift */,
 				DE05A0192783532000733D9B /* Lanternfish */,
 				DE1BFCF327826EA900558E51 /* StarsAlign */,
@@ -314,6 +318,7 @@
 			files = (
 				DED19C04277F71050042ED48 /* StarsAlignInput.swift in Sources */,
 				DEDFC3232780740D0009F38F /* StarsAlign.swift in Sources */,
+				DEB973812786655000B85B3E /* RepoWebView.swift in Sources */,
 				DE05A01B2783537B00733D9B /* Lanternfish.swift in Sources */,
 				DEE195252786369F00D8634D /* Extentions.swift in Sources */,
 				DEB9737E27865ED000B85B3E /* StarsAlignViewModel.swift in Sources */,
@@ -333,6 +338,7 @@
 			files = (
 				DED19C05277F71050042ED48 /* StarsAlignInput.swift in Sources */,
 				DEDFC3242780740D0009F38F /* StarsAlign.swift in Sources */,
+				DEB973822786655000B85B3E /* RepoWebView.swift in Sources */,
 				DE05A01C2783537B00733D9B /* Lanternfish.swift in Sources */,
 				DEE195262786369F00D8634D /* Extentions.swift in Sources */,
 				DEB9737F27865ED000B85B3E /* StarsAlignViewModel.swift in Sources */,

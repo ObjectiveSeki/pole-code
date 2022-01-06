@@ -35,7 +35,11 @@ struct HappyNewYearView: View {
                     )
                     NavigationLink(
                         "2021 Day 6 - Lanternfish",
-                        destination: LanternfishView( title: "Lanternfish")
+                        destination: LanternfishView(title: "Lanternfish")
+                    )
+                    NavigationLink(
+                        "PoleCode Repository",
+                        destination: RepoWebView(title: "PoleCode Repository")
                     )
                 }
             }
