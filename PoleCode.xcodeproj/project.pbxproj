@@ -112,10 +112,10 @@
 		DE05A0192783532000733D9B /* Lanternfish */ = {
 			isa = PBXGroup;
 			children = (
-				DE82675E2783605000E19309 /* LanternfishView.swift */,
-				DE826762278363B000E19309 /* PieSliceView.swift */,
 				DE05A01A2783537B00733D9B /* Lanternfish.swift */,
 				DE826766278375F800E19309 /* LanternfishViewModel.swift */,
+				DE82675E2783605000E19309 /* LanternfishView.swift */,
+				DE826762278363B000E19309 /* PieSliceView.swift */,
 				DE05A01E278353DD00733D9B /* LanternfishInput.swift */,
 			);
 			path = Lanternfish;
@@ -149,8 +149,8 @@
 				DED84654277DE70400B34C6C /* HappyNewYearView.swift */,
 				DEB973802786655000B85B3E /* RepoWebView.swift */,
 				DEE195242786369F00D8634D /* Extentions.swift */,
-				DE05A0192783532000733D9B /* Lanternfish */,
 				DE1BFCF327826EA900558E51 /* StarsAlign */,
+				DE05A0192783532000733D9B /* Lanternfish */,
 				DED84655277DE70500B34C6C /* Assets.xcassets */,
 			);
 			path = Shared;

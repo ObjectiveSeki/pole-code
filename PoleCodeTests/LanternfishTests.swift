@@ -18,20 +18,20 @@ class LanternfishTests: XCTestCase {
     }
     
     func test3() throws {
-        let h = Lanternfish(input: LanternfishInput.inputTest)
-        let count = h.fishCount(after: 80)
+        let sut = Lanternfish(input: LanternfishInput.inputTest)
+        let count = sut.fishCount(after: 80)
         XCTAssertEqual(count, 5934)
     }
     
     func test4() throws {
-        let h = Lanternfish(input: LanternfishInput.input)
-        let count = h.fishCountFast(after: 80)
+        let sut = Lanternfish(input: LanternfishInput.input)
+        let count = sut.fishCountFast(after: 80)
         XCTAssertEqual(count, 385391)
     }
     
     func test5() throws {
-        let h = Lanternfish(input:LanternfishInput.input)
-        let count = h.fishCountFast(after: 256)
+        let sut = Lanternfish(input:LanternfishInput.input)
+        let count = sut.fishCountFast(after: 256)
         XCTAssertEqual(count, 1728611055389)
     }
     
